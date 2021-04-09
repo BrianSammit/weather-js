@@ -33,6 +33,21 @@ window.addEventListener("load", () => {
           loc.textContent = name;
           climate.textContent = main;
           tempValue.textContent = Math.round(feels_like - 273);
+          if (id < 300 && id > 200) {
+            tempIcon.src = "../src/icons/rain.svg";
+          } else if (id < 400 && id > 300) {
+            tempIcon.src = "../src/icons/rain.svg";
+          } else if (id < 600 && id > 500) {
+            tempIcon.src = "../src/icons/rain.svg";
+          } else if (id < 700 && id > 600) {
+            tempIcon.src = "../src/icons/rain.svg";
+          } else if (id < 800 && id > 700) {
+            tempIcon.src = "../src/icons/rain.svg";
+          } else if (id < 900 && id > 800) {
+            tempIcon.src = "../src/icons/rain.svg";
+          }
+
+          console.log(data);
         });
     });
   }
