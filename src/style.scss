@@ -17,6 +17,7 @@ body {
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
+    height: auto;
     margin: 1em;
 
     .search {
@@ -53,14 +54,26 @@ body {
       }
     }
 
-    h1.temp {
-      margin: 0;
-    }
+    .weather {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    .icon {
-      margin: 1rem;
-      width: 40%;
-      height: auto;
+      #temp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1.temp {
+          margin: 0;
+        }
+
+        .icon {
+          margin: 1rem;
+          height: 10rem;
+          width: 10rem;
+        }
+      }
     }
   }
 }
