@@ -38,9 +38,11 @@ const getWeather = async (city) => {
     } else if (id < 700 && id > 600) {
       tempIcon.src = "../src/animated/snowy-6.svg";
     } else if (id < 800 && id > 700) {
-      tempIcon.src = "../src/animated/cloudy.svg";
+      tempIcon.src = "../src/animated/cloudy-day-2.svg";
+    } else if (id === 800) {
+      tempIcon.src = "../src/animated/.svg";
     } else if (id < 900 && id > 800) {
-      tempIcon.src = "../src/animated/day.svg";
+      tempIcon.src = "../src/animated/cloudy.svg";
     }
   } catch (error) {
     alert("city not found");
@@ -77,13 +79,15 @@ window.addEventListener("load", () => {
           } else if (id < 400 && id > 300) {
             tempIcon.src = "../src/animated/rainy-2.svg";
           } else if (id < 600 && id > 500) {
-            tempIcon.src = "../src/animated/rainy-7.svg";
+            tempIcon.src = "../src/animated/cloudy-day-2.svg";
           } else if (id < 700 && id > 600) {
             tempIcon.src = "../src/animated/snowy-6.svg";
           } else if (id < 800 && id > 700) {
-            tempIcon.src = "../src/animated/cloudy.svg";
+            tempIcon.src = "../src/animated/cloudy-day-2.svg";
+          } else if (id === 800) {
+            tempIcon.src = "../src/animated/.svg";
           } else if (id < 900 && id > 800) {
-            tempIcon.src = "../src/animated/day.svg";
+            tempIcon.src = "../src/animated/cloudy.svg";
           }
 
           console.log(data);
