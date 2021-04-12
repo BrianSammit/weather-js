@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cf19c7517f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather app</title>
+  </head>
+  <body>
+    <main class="card">
+      <form class="search" id="search_form">
+        <input type="search" id="search-bar" class="search-bar" placeholder="Search the city" />
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </form>
+      <div class="weather" id="container-app">
+        <h2 class="city" id="location">Weather</h2>
+        <div id="temp">
+          <h1 class="temp"><span id="temp-value">17 °C</span></h1>
+         <div id="weather-c">Display in °C</div>
+         <div id="weather-f">Display in °F</div>
+          <img id="temp-icon" alt="icon" class="icon" src="../src/animated/thunder.svg"/>
+        </div>
+        <div class="description" id="climate">
+          <p>Thunder</p>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

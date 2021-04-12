@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape,city");
+  font-family: "Montserrat Alternates", sans-serif;
+
+  main.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 1em;
+
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      button {
+        margin: 0.5em;
+        border-radius: 50%;
+        border: none;
+        height: 2.5em;
+        width: 2.5em;
+        outline: none;
+        background: white;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+      }
+
+      input.search-bar {
+        border: none;
+        outline: none;
+        padding: 0.3em 1em;
+        border-radius: 17px;
+        background: white;
+        color: black;
+        font-family: inherit;
+        font-size: 120%;
+        width: calc(100% - 100px);
+      }
+
+      button:hover {
+        background: grey;
+      }
+    }
+
+    .weather {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #temp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1.temp {
+          margin: 0;
+        }
+
+        .icon {
+          margin: 1rem;
+          height: 10rem;
+          width: 10rem;
+        }
+      }
+
+      #weather-c {
+        cursor: pointer;
+        display: none;
+      }
+
+      #weather-f {
+        cursor: pointer;
+      }
+    }
+  }
+}
