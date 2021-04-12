@@ -74,6 +74,15 @@ body {
           width: 10rem;
         }
       }
+
+      #weather-c {
+        cursor: pointer;
+        display: none;
+      }
+
+      #weather-f {
+        cursor: pointer;
+      }
     }
   }
 }
