@@ -8,7 +8,7 @@ This weather app shows you the current weather in your place and also you can se
 
 ## Live demo
 
-[live demo](https://rawcdn.githack.com/BrianSammit/weather-js/e9c30fb63ddb7a60737c81565fcbd3b7f46a6e6d/dist/index.html)
+[live demo](https://rawcdn.githack.com/BrianSammit/weather-js/2a489a817d699de5ca19d2194f3be40378e4b293/dist/index.html)
 
 ## Built With
 
