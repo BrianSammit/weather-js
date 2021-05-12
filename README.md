@@ -1,6 +1,6 @@
 # weather-js
 
-This is a weather app that was created with HTML and Javascript,
+This is a weather app that was created with HTML, Javascript, and openWeather API
 This weather app shows you the current weather in your place and also you can search for a different city.
 
 ![screenshot](./screnshots/Capture.JPG)
